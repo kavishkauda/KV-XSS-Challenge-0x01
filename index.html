@@ -1,0 +1,9 @@
+<script type="text/javascript">
+	function escape(input) {
+    input = input.replace(/[=(]/g, '');
+	return input;
+}
+
+var doc = escape(prompt('Enter the payload:'));
+document.write(doc);
+</script>
